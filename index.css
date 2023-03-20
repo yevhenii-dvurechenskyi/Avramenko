@@ -1,0 +1,193 @@
+body{
+    margin: 0px;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.linkToMainPage{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: bold;
+    padding-left: 5%;
+    cursor: pointer;
+}
+.languages{
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5%;
+}
+.usLanguage{
+    color: #FFF;
+    cursor: pointer;
+    font-size: 22px;
+}
+.uaLanguage{
+    color: #FFF;
+    cursor: pointer;
+    font-size: 22px;
+}
+.infoBlockAboutAvramenkoh1{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    text-align: center;
+    align-items: center;
+    font-size: 65px;
+}
+.infoBlockAboutAvramenko{
+    width: 80%;
+    height: 550px;
+    background-color: #EFF4FF;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.infoBlockAboutAvramenkoh2{
+    position: relative;
+    padding-top: 40px;
+    padding-left: 40px;
+    font-size: 35px;
+}
+.infoBlockAboutAvramenkoText{
+    width: 60%;
+    height: 33px;
+    font-size: 25px;
+    margin-top: 70px;
+    padding: 0 0 85px 35px;
+}
+.imgAvramenko1{
+    margin-left: 70%;
+    margin-top: -308px;
+}
+.hr{
+    border-top: 2px solid #666666;
+    margin-top: 0px;
+}
+.bookInfoh1{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    text-align: center;
+    align-items: center;
+    font-size: 45px;
+}
+
+
+/* adaptive */
+
+@media only screen and (max-width: 1300px){
+    .infoBlockAboutAvramenkoText{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 1300px){
+    .infoBlockAboutAvramenkoh2{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 1300px){
+    .imgAvramenko1{
+        font-size: 30px;
+        width: 310px;
+        height: 465px;
+        margin-top: -295px;
+        margin-left: 66%;
+    }
+}
+@media only screen and (max-width: 1300px){
+    .infoBlockAboutAvramenko{
+        height: 450px;
+    }
+}
+@media only screen and (max-width: 1300px){
+    .infoBlockAboutAvramenkoh1{
+        font-size: 50px;
+    }
+}
+
+/* adaptiveForPhone */
+
+/* header */
+@media only screen and (max-width: 450px){
+    .linkToMainPage{
+        padding-top: 5px;
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 450px){
+    .header{
+        height: 50px;
+    }
+}
+@media only screen and (max-width: 450px){
+    .usLanguage{
+        font-size: 15px;
+        line-height: 50px;
+    }
+}
+@media only screen and (max-width: 450px){
+    .uaLanguage{
+        font-size: 15px;
+        line-height: 50px;
+    }
+}
+@media only screen and (max-width: 450px){
+    .languages{
+        width: 50px;
+        padding-top: 10px;
+    }
+}
+
+/* main */
+@media only screen and (max-width: 450px){
+    .infoBlockAboutAvramenkoText{
+        width: 70%;
+        font-size: 17px;
+        position: absolute;
+        top: 330px;
+        right: 50px;
+    }
+}
+@media only screen and (max-width: 450px){
+    .infoBlockAboutAvramenkoh2{
+        font-size: 25px;
+        width: 80%;
+        position: absolute;
+        top: 250px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 450px){
+    .imgAvramenko1{
+        font-size: 30px;
+        width: 180px;
+        height: 295px;
+        margin-top: -295px;
+        padding-right: 80px;
+    }
+}
+@media only screen and (max-width: 450px){
+    .infoBlockAboutAvramenko{
+        height: 800px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        flex-wrap: wrap-reverse;
+        
+    }
+}
+@media only screen and (max-width: 450px){
+    .infoBlockAboutAvramenkoh1{
+        font-size: 30px;
+    }
+}
