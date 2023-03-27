@@ -1,37 +1,66 @@
 body{
     margin: 0px;
     padding: 0;
+    font-family: 'PT Sans', sans-serif;
 }
 .header{
     width: 100%;
     height: 80px;
     background-color: #333333;
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     align-items: center;
 }
-.linkToMainPage{
-    color: #FFF;
-    font-size: 48px;
-    font-weight: bold;
-    padding-left: 5%;
-    cursor: pointer;
-}
 .languages{
-    width: 80px;
+    width: 140px;
     display: flex;
     justify-content: space-between;
     padding-right: 5%;
 }
-.usLanguage{
+#usLanguage{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+#usLanguageA{
+    text-decoration: none;
+    user-select: none;
     color: #FFF;
     cursor: pointer;
     font-size: 22px;
 }
-.uaLanguage{
+#uaLanguageA{
+    text-decoration: none;
+    user-select: none;
     color: #FFF;
     cursor: pointer;
     font-size: 22px;
+}
+.usimg{
+    width: 22px;
+    height: 22px;
+}
+.uaimg{
+    width: 22px;
+    height: 22px;
+}
+#uaLanguage{
+    user-select: none;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 22px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+#usLanguage{
+    user-select: none;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 22px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
 }
 .infoBlockAboutAvramenkoh1{
     width: 80%;
@@ -60,12 +89,12 @@ body{
     width: 60%;
     height: 33px;
     font-size: 25px;
-    margin-top: 70px;
+    margin-top: 50px;
     padding: 0 0 85px 35px;
 }
 .imgAvramenko1{
     margin-left: 70%;
-    margin-top: -308px;
+    margin-top: -294px;
 }
 .hr{
     border-top: 2px solid #666666;
@@ -81,6 +110,231 @@ body{
     align-items: center;
     font-size: 45px;
 }
+.bookInfopDescription{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 300px;
+    margin-top: 60px;
+    text-align: left;
+    font-size: 25px;
+}
+/* bookArea */
+
+.bookBody{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.bookBodyImg{
+    box-shadow: 4px 5px 9px 4px rgba(0, 0, 0, 0.25);
+    width: 430px;
+    height: 487px;
+}
+.bookBodyDescription{
+    width: 60%;
+    margin-left: -10px
+}
+.bookBodyDescriptionName{
+    color: #292929;
+    font-size: 60px;
+    margin-top: -5px;
+}
+.bookBodyDescriptionAuthor{
+    color: #292929;
+    font-size: 25px;
+    margin-top: -40px;
+    margin-bottom: 35px;
+}
+.bookBodyDescriptionStrongFont{
+    font-weight: bold;
+}
+.bookBodyDescriptionText{
+    display: block;
+    height: 260px;
+    color: #292929;
+    font-size: 25px;
+}
+.bookBodyDescriptionButtonBody{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.bookBodyDescriptionButtonBodyButtonReadZareckij{
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #000000;
+    color: #FFFFFF;
+    align-items: center;
+    line-height: 50px;
+    font-size: 23px;
+    border: none;
+}
+.bookBodyDescriptionButtonBodyButtonBuyZareckij{
+    width: 130px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #000000;
+    color: #FFFFFF;
+    align-items: center;
+    line-height: 50px;
+    font-size: 23px;
+    border: none;
+}
+.bookBodyDescriptionButtonBodyButtonBuyZareckij:hover{
+    border: 2px solid #AB0000;
+    line-height: 46px;
+}
+.bookBodyDescriptionButtonBodyButtonReadZareckij:hover{
+    border: 2px solid #AB0000;
+    line-height: 46px;
+}
+.bookBodyDescriptionButtonBodyButtonReadBilokur{
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #000000;
+    color: #FFFFFF;
+    align-items: center;
+    line-height: 50px;
+    font-size: 23px;
+    border: none;
+}
+.bookBodyDescriptionButtonBodyButtonBuyBilokur{
+    width: 130px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #000000;
+    color: #FFFFFF;
+    align-items: center;
+    line-height: 50px;
+    font-size: 23px;
+    border: none;
+}
+.bookBodyDescriptionButtonBodyButtonBuyBilokur:hover{
+    border: 2px solid #2569B2;
+    line-height: 46px;
+}
+.bookBodyDescriptionButtonBodyButtonReadBilokur:hover{
+    border: 2px solid #2569B2;
+    line-height: 46px;
+}
+.bookBodyDescriptionButtonBodyButtonReadPokrova{
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #000000;
+    color: #FFFFFF;
+    align-items: center;
+    line-height: 50px;
+    font-size: 23px;
+    border: none;
+}
+.bookBodyDescriptionButtonBodyButtonBuyPokrova{
+    width: 130px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #000000;
+    color: #FFFFFF;
+    align-items: center;
+    line-height: 50px;
+    font-size: 23px;
+    border: none;
+}
+.bookBodyDescriptionButtonBodyButtonBuyPokrova:hover{
+    border: 2px solid #C1BEB9;
+    line-height: 46px;
+}
+.bookBodyDescriptionButtonBodyButtonReadPokrova:hover{
+    border: 2px solid #C1BEB9;
+    line-height: 46px;
+}
+.bookBodyDescriptionButtonBodyButtonReadPrihodko{
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #000000;
+    color: #FFFFFF;
+    align-items: center;
+    line-height: 50px;
+    font-size: 23px;
+    border: none;
+}
+.bookBodyDescriptionButtonBodyButtonBuyPrihodko{
+    width: 130px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #000000;
+    color: #FFFFFF;
+    align-items: center;
+    line-height: 50px;
+    font-size: 23px;
+    border: none;
+}
+.bookBodyDescriptionButtonBodyButtonReadPrihodko:hover{
+    border: 2px solid #F6D137;
+    line-height: 46px;
+}
+.bookBodyDescriptionButtonBodyButtonReadKrivolap{
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #000000;
+    color: #FFFFFF;
+    align-items: center;
+    line-height: 50px;
+    font-size: 23px;
+    border: none;
+}
+.bookBodyDescriptionButtonBodyButtonBuyKrivolap{
+    width: 130px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #000000;
+    color: #FFFFFF;
+    align-items: center;
+    line-height: 50px;
+    font-size: 23px;
+    border: none;
+}
+.bookBodyDescriptionButtonBodyButtonReadKrivolap:hover{
+    border: 2px solid #F16734;
+    line-height: 46px;
+}
+.bookHr{
+    width: 80%;
+    margin: 80px 10%;
+}
+.copyright{
+    margin: 230px 4% 50px 2%;
+}
+.copyrighth2{
+    color: #333361;
+    font-size: 40px;
+    margin-bottom: -1px;
+}
+.copyrightTextSpan{
+    color: #666666;
+    font-size: 20px;
+    display: block;
+    padding-top: 15px;
+}
+.footer{
+    width: 100%;
+    background-color: #333333;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.footerText{
+    margin: 0px 3%;
+    font-size: 25px;
+    color: #fff;
+}
 
 
 /* adaptive */
@@ -89,61 +343,75 @@ body{
     .infoBlockAboutAvramenkoText{
         font-size: 20px;
     }
-}
-@media only screen and (max-width: 1300px){
     .infoBlockAboutAvramenkoh2{
         font-size: 30px;
     }
-}
-@media only screen and (max-width: 1300px){
     .imgAvramenko1{
         font-size: 30px;
         width: 310px;
         height: 465px;
-        margin-top: -295px;
-        margin-left: 66%;
+        margin-top: -280px;
     }
-}
-@media only screen and (max-width: 1300px){
     .infoBlockAboutAvramenko{
         height: 450px;
     }
-}
-@media only screen and (max-width: 1300px){
     .infoBlockAboutAvramenkoh1{
         font-size: 50px;
     }
+    .bookInfoh1{
+        font-size: 40px;
+    }
+    .bookInfopDescription{
+        font-size: 20px;
+    }
+}
+/* adaptiveBoockArea */
+
+@media only screen and (max-width: 1450px){
+    .bookBodyImg{
+        width: 350px;
+        height: 436px;
+    }
+    .bookBodyDescriptionName{
+        color: #292929;
+        font-size: 50px;
+        margin-top: -5px;
+    }
+    .bookBodyDescriptionAuthor{
+        color: #292929;
+        font-size: 20px;
+        margin-top: -40px;
+        margin-bottom: 35px;
+    }
+    .bookBodyDescriptionStrongFont{
+        font-weight: bold;
+    }
+    .bookBodyDescriptionText{
+        display: block;
+        height: 240px;
+        color: #292929;
+        font-size: 20px;
+    }
+    
 }
 
 /* adaptiveForPhone */
 
 /* header */
 @media only screen and (max-width: 450px){
-    .linkToMainPage{
-        padding-top: 5px;
-        font-size: 30px;
-    }
-}
-@media only screen and (max-width: 450px){
     .header{
         height: 50px;
     }
-}
-@media only screen and (max-width: 450px){
     .usLanguage{
-        font-size: 15px;
+        font-size: 18px;
         line-height: 50px;
     }
-}
-@media only screen and (max-width: 450px){
     .uaLanguage{
-        font-size: 15px;
+        font-size: 18px;
         line-height: 50px;
     }
-}
-@media only screen and (max-width: 450px){
     .languages{
-        width: 50px;
+        width: 120px;
         padding-top: 10px;
     }
 }
@@ -156,9 +424,8 @@ body{
         position: absolute;
         top: 290px;
         right: 50px;
+        text-align: center;
     }
-}
-@media only screen and (max-width: 450px){
     .infoBlockAboutAvramenkoh2{
         font-size: 25px;
         width: 80%;
@@ -166,8 +433,6 @@ body{
         top: 210px;
         text-align: center;
     }
-}
-@media only screen and (max-width: 450px){
     .imgAvramenko1{
         font-size: 30px;
         width: 180px;
@@ -175,19 +440,166 @@ body{
         margin-top: -295px;
         padding-right: 80px;
     }
-}
-@media only screen and (max-width: 450px){
     .infoBlockAboutAvramenko{
-        height: 800px;
+        height: 780px;
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-between;
         flex-wrap: wrap-reverse;
         
     }
-}
-@media only screen and (max-width: 450px){
+    #infoBlockAboutAvramenkoAdaptive{
+        height: 850px;
+    }
     .infoBlockAboutAvramenkoh1{
         font-size: 30px;
+    }
+    .bookInfoh1{
+        font-size: 30px;
+    }
+    .bookInfopDescription{
+        font-size: 17px;
+        text-align: center;
+    }
+
+    /* footer */
+
+    .copyrighth2{
+        font-size: 27px;
+    }
+    .copyrightTextSpan{
+        font-size: 16px;
+    }
+    .footerText{
+        font-size: 17px;
+    }
+
+}
+
+/* adaptiveForPhoneBookArea */
+
+@media only screen and (max-width: 450px){
+    .bookBody{
+        flex-direction: column;
+        align-items: center;
+        margin-top: -190px;
+        margin-bottom: 300px;
+    }
+    .bookBodyImg{
+        width: 260px;
+        height: 310px;
+    }
+    .bookBodyDescription{
+        margin-top: 30px;
+        margin-left: 1%;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    .bookBodyDescriptionName{
+        font-size: 35px;
+    }
+    .bookBodyDescriptionAuthor{
+        font-size: 17px;
+        margin-top: -20px;
+        margin-bottom: 10px;
+    }
+    .bookBodyDescriptionText{
+        font-size: 17px;
+        height: 400px;
+    }
+    .bookBodyDescriptionButtonBodyButtonReadZareckij{
+        font-size: 16px;
+        line-height: 30px;
+        width: 135px;
+        height: 30px;
+    }
+    .bookBodyDescriptionButtonBodyButtonReadZareckij:hover{
+        border: none;
+        line-height: 30px;
+    }
+    .bookBodyDescriptionButtonBodyButtonBuyZareckij{
+        font-size: 16px;
+        line-height: 30px;
+        width: 70px;
+        height: 30px;
+    }
+    .bookBodyDescriptionButtonBodyButtonBuyZareckij:hover{
+        border: none;
+        line-height: 30px;
+    }
+    .bookBodyDescriptionButtonBodyButtonReadBilokur{
+        font-size: 16px;
+        line-height: 30px;
+        width: 135px;
+        height: 30px;
+    }
+    .bookBodyDescriptionButtonBodyButtonBuyBilokur{
+        font-size: 16px;
+        line-height: 30px;
+        width: 70px;
+        height: 30px;
+    }
+    .bookBodyDescriptionButtonBodyButtonBuyBilokur:hover{
+        border: none;
+        line-height: 30px;
+    }
+    .bookBodyDescriptionButtonBodyButtonReadBilokur:hover{
+        border: none;
+        line-height: 30px;
+    }
+    .bookBodyDescriptionButtonBodyButtonReadPokrova{
+        font-size: 16px;
+        line-height: 30px;
+        width: 135px;
+        height: 30px;
+    }
+    .bookBodyDescriptionButtonBodyButtonBuyPokrova{
+        font-size: 16px;
+        line-height: 30px;
+        width: 70px;
+        height: 30px;
+    }
+    .bookBodyDescriptionButtonBodyButtonBuyPokrova:hover{
+        border: none;
+        line-height: 30px;
+    }
+    .bookBodyDescriptionButtonBodyButtonReadPokrova:hover{
+        border: none;
+        line-height: 30px;
+    }
+    .bookBodyDescriptionButtonBodyButtonReadPrihodko{
+        font-size: 16px;
+        line-height: 30px;
+        width: 120px;
+        height: 30px;
+    }
+    .bookBodyDescriptionButtonBodyButtonReadPrihodko:hover{
+        border: none;
+        line-height: 30px;
+    }
+    .bookBodyDescriptionButtonBodyButtonReadKrivolap{
+        font-size: 16px;
+        line-height: 30px;
+        width: 120px;
+        height: 30px;
+    }
+    .bookBodyDescriptionButtonBodyButtonReadKrivolap:hover{
+        border: none;
+        line-height: 30px;
+    }
+    .bookHr{
+        display:  none;
+    }
+    
+    /* footer */
+    .copyrighth2{
+        font-size: 25px;
+    }
+    .copyrightTextSpan{
+        font-size: 15px;
+    }
+    .footerText{
+        font-size: 16px;
     }
 }
